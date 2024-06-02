@@ -1,8 +1,13 @@
 {
   "name": "tea-react-camille",
-  "version": "1.0.1",
-  "description": "",
-  "main": "dist/bundle.js",
+  "version": "1.0.2",
+  "description": "A React advanced components library based on Bootstrap",
+  "keywords": [
+    "react",
+    "component",
+    "bootstrap"
+  ],
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
