@@ -4,7 +4,7 @@ import { Spinner } from 'react-bootstrap';
 const SpinnerButton = ({
   animation,
   loading,
-  disabled,
+  disabled = false,
   children,
   ...props
 }) => {
