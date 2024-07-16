@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import SpinnerButton from './SpinnerButton';
 
-export const IdeaDialog = ({
+const CDialog = ({
     children,
     title,
     formId,
@@ -50,4 +50,4 @@ export const IdeaDialog = ({
     </Modal>
 );
 
-IdeaDialog.displayName = 'IdeaDialog';
+export default CDialog;
