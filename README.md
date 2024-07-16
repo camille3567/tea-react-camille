@@ -20,6 +20,10 @@ npm run start
 ```shell
 npm run build
 ```
+or 
+```shell
+npx webpack
+```
 
 ## Publish
 
